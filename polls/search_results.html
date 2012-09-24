@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>Search</title>
+</head>
+<body>
+
+    <p>You searched for: <strong>{{ query }}</strong></p>
+
+	{% if snippet_list %}
+    <p>Found {{ snippet_list|length }} snippet{{ snippet_list|pluralize }}.</p>
+    <ul>
+        {% for snippet in snippet_list %}
+        <li>{{ snippet.snippet }}</li>
+        {% endfor %}
+    </ul>
+	{% else %}
+    <p>No snippets matched your search criteria.</p>
+	{% endif %}
+	
+</body>
+</html>
