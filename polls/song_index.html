@@ -1,0 +1,9 @@
+{% if song_list %}
+    <ul>
+    {% for song in song_list %}
+        <li><a href="/polls/{{ song.songid }}/snippet_view/">{{ song.title }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No songs in the database.</p>
+{% endif %}
