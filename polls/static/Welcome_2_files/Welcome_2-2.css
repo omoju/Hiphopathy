@@ -2,14 +2,14 @@
     padding: 4px;
 }
 p {
-    color: rgb(255, 255, 255);
+    /*color: rgb(255, 255, 255);*/
     font-family: 'Arial-BoldMT', 'Arial', sans-serif;
     font-size: 24px;
     font-stretch: normal;
     font-style: normal;
     font-variant: normal;
     font-weight: 700;
-    color: #00000;
+    color: #000000;
     letter-spacing: 0;
     line-height: 28px;
     margin-bottom: 0px;
@@ -43,7 +43,7 @@ p {
     opacity: 1.00;
 }
 body {
-    color: rgb(255, 255, 255);
+    /*color: rgb(255, 255, 255);*/
     font-family: Arial;
     font-size: 15px;
     font-stretch: normal;
@@ -63,7 +63,7 @@ body {
     text-decoration: none;
     text-indent: 0px;
     text-transform: none;
-    /*background-color: #000000;*/
+    color: #000000;
 }
 .Header {
     color: rgb(255, 255, 255);
