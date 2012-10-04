@@ -22,15 +22,13 @@ Hipopathy is fun because the its uses hip-hop data from some of todays leading h
 Kanye West, Mos Def, Common, the Roots and others.<br /></p>
 </div>
 <div> 
-	{% if artist_list %}
     <ul>
 	{% for artist in artist_list %}
 		<li><a href="/polls/{{ artist.artistid }}/song_view/">{{ artist.artist }}</a></li>
+	{% empty %}
+		<p>No artist in the database.</p>
 	{% endfor %}
 	</ul>
-	{% else %}
-		<p>No artist in the database.</p>
-	{% endif %}
 </div>
            
   
