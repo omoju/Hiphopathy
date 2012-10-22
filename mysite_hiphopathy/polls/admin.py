@@ -4,9 +4,6 @@ from polls.models import Artist
 from polls.models import Song
 from polls.models import Album
 from polls.models import Snippet
-from polls.models import Frame
-from polls.models import Frameelement
-from polls.models import Userdata
 
 
 class AlbumInline(admin.TabularInline):
@@ -51,18 +48,7 @@ class SongAdmin(admin.ModelAdmin):
     	]
     	search_fields=['title']
     	list_display = ('title', 'albumid', 'artistid')
- 
-class FrameelementInline(admin.TabularInline):
-	model = Frameelement
-	extra = 0
-	
-class FrameAdmin(admin.ModelAdmin):
-	fieldsets = [
-        ('Name',               {'fields': ['name']}),
-        ('Definition', {'fields': ['definition'],'classes': ['collapse']}),
-    	]
-    	search_fields=['name']
-    	inlines = [FrameelementInline]
+
     	
 
 
@@ -70,8 +56,6 @@ class FrameAdmin(admin.ModelAdmin):
 admin.site.register(Artist, ArtistAdmin)
 admin.site.register(Snippet, SnippetAdmin)
 admin.site.register(Song, SongAdmin)
-admin.site.register(Frame, FrameAdmin)
-admin.site.register(Userdata, UserAdmin)
 
 
 

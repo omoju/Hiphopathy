@@ -12,9 +12,11 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'hhwc',                      # Or path to database file if using sqlite3.
-        'USER': 'django_user',                      # Not used with sqlite3.
-        'PASSWORD': 'django_pass',                  # Not used with sqlite3.
+        'NAME': 'hiphopathy',                      # Or path to database file if using sqlite3.
+        'USER': 'root',
+        'PASSWORD':'root',
+        #'USER': 'django_user',                      # Not used with sqlite3.
+        #'PASSWORD': 'django_pass',                  # Not used with sqlite3.
         'HOST': '',      # Set to empty string for localhost. Not used with sqlite3.
         'PORT': '3306',                      # Set to empty string for default. Not used with sqlite3.
     }
@@ -111,7 +113,7 @@ TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
-    '/Users/omojumiller/desktop/hipopathy'
+    '/Users/omojumiller/Desktop/Hiphopathy_Extended/hiphopathy'
 )
 
 INSTALLED_APPS = (

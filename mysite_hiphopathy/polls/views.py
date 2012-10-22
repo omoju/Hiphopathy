@@ -6,12 +6,17 @@ from polls.models import Artist
 from polls.models import Song
 from polls.models import Album
 from polls.models import Snippet
-from polls.models import Userdata
 from django.shortcuts import get_object_or_404, render_to_response
 from django.http import HttpResponseRedirect, HttpResponse
 from django.core.urlresolvers import reverse
-from django.core.context_processors import csrf
-  
+from django.core.context_processors import csrf  
+import datetime
+
+def current_datetime(request):
+           now = datetime.datetime.now()
+           html = "<html><body>It is now %s.</body></html>" % now
+           return HttpResponse(html)
+
 
 def index(request):
     artist_list = Artist.objects.all().order_by('-artist')
