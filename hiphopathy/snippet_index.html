@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Snippets</title>
+	
+</head>
+    
+<body>
+
+    
+    {% if chunk_list %}
+
+    
+    {% for chunk in chunk_list %}
+    {% if chunk.snippetid < 20 %}
+    <form action="." method="POST" >
+    
+		 {{ chunk }} <br />
+		<input type="text" name="user_supplied_answer"  value="{{chunk.user_answer}}" width=100 />
+		<p> <!---value="{{snippet.answer}}"-->
+	{% endif %}
+    {% endfor %}
+   
+     <input type="button" name="Submit" value="Submit" />
+     </form>
+    
+    {% else %}
+        <p>No chunks in the database for this song.</p>
+    {% endif %}
+
+
+</body>
+</html>
+
+

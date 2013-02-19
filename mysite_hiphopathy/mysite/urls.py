@@ -1,23 +1,18 @@
 from django.conf.urls import patterns, include, url
-from polls.views import current_datetime
+from django.contrib import admin
+admin.autodiscover()
 
-# Uncomment the next two lines to enable the admin:
-#from django.contrib import admin
-#admin.autodiscover()
+
+
 
 
 
 urlpatterns = patterns('',
-           (r'^time/$', current_datetime),
+    (r'^hiphopathy/$', 'hiphopathy.views.index'),
+    (r'^hiphopathy/(?P<artistid>\d+)/song_view/$', 'hiphopathy.views.song_view'),
+    (r'^hiphopathy/(?P<songid>\d+)/snippet_view/$', 'hiphopathy.views.snippet_view'),
+    (r'^hiphopathy/post/$', 'post'),
+    (r'^hiphopathy/search-form/$', 'hiphopathy.views.search_form'),
+    (r'^hiphopathy/search/$', 'hiphopathy.views.search'),
+    (r'^admin/', include(admin.site.urls)),
 )
-
-
-#urlpatterns = patterns('',
-#    url(r'^polls/$', 'polls.views.index'),
-#    url(r'^polls/(?P<artistid>\d+)/song_view/$', 'polls.views.song_view'),
-#    url(r'^polls/(?P<songid>\d+)/snippet_view/$', 'polls.views.snippet_view'),
-#    url(r'^polls/post/$', 'post'),
-#    url(r'^polls/search-form/$', 'polls.views.search_form'),
-#    url(r'^polls/search/$', 'polls.views.search'),
-#    url(r'^admin/', include(admin.site.urls)),
-#)

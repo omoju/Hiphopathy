@@ -64,16 +64,16 @@ def document_features(document, word_features): ##
 ## whether a specific word appear in the document
 
 # Some document to classify on 'output.txt'
-newcorpus_root = ''
-document = PlaintextCorpusReader(newcorpus_root, '.*')
-docu = document.raw(document.fileids()[214])
-docuwords = nltk.word_tokenize(docu)
-docuwords = [t.lower() for t in docuwords]
+#newcorpus_root = ''
+#document = PlaintextCorpusReader(newcorpus_root, '.*')
+#docu = document.raw(document.fileids()[214])
+#docuwords = nltk.word_tokenize(docu)
+#docuwords = [t.lower() for t in docuwords]
 
 ## write the processed file out
-output_file = open('output2.txt', 'w')
-for words in sorted(set(temp)):
-     output_file.write(words + "\n")
+#output_file = open('output2.txt', 'w')
+#for words in sorted(set(temp)):
+#     output_file.write(words + "\n")
 
-output_file.write(str(len(set(temp))) + "\n")
-output_file.close()
+#output_file.write(str(len(set(temp))) + "\n")
+#output_file.close()

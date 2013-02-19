@@ -1,9 +1,9 @@
 from django.contrib import admin
-from polls.models import Choice
-from polls.models import Artist
-from polls.models import Song
-from polls.models import Album
-from polls.models import Snippet
+from hiphopathy.models import Choice
+from hiphopathy.models import Artist
+from hiphopathy.models import Song
+from hiphopathy.models import Album
+from hiphopathy.models import Snippet
 
 
 class AlbumInline(admin.TabularInline):
@@ -23,10 +23,11 @@ class ArtistAdmin(admin.ModelAdmin):
   
 class SnippetAdmin(admin.ModelAdmin):
 	fieldsets = [
-        ('Snippet',          {'fields': ['snippet']}),
+        ('Snippet',          {'fields': ['chunk']}),
         ('KEY',              {'fields': ['snippetid']}),
         ('SONG',             {'fields': ['songid']}),
-        ('Answer',           {'fields': ['answer']}),
+        ('Answer',           {'fields': ['user_answer']}),
+        ('Decoded',          {'fields': ['decoded']}),
         ('Remarks',          {'fields': ['comments']}),
     	]
     	list_display = ('songid', 'snippetid')
@@ -49,13 +50,12 @@ class SongAdmin(admin.ModelAdmin):
     	search_fields=['title']
     	list_display = ('title', 'albumid', 'artistid')
 
-    	
-
-
 
 admin.site.register(Artist, ArtistAdmin)
 admin.site.register(Snippet, SnippetAdmin)
 admin.site.register(Song, SongAdmin)
 
 
-
+# Here is the superuser
+# Username: hiphopathy_user
+# Password: roger5bacon

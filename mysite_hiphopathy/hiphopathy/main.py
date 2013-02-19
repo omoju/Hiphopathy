@@ -33,7 +33,7 @@ def write_output(mycorpus):
     output_file = open('output2.txt', 'w')
     for words in sorted(set(mycorpus)):
         output_file.write(words + "\n")
-    output_file.write(str(len(set(temp))) + "\n")
+    output_file.write(str(len(set(mycorpus))) + "\n")
     output_file.close()
 
 
@@ -47,10 +47,10 @@ wordlist = PlaintextCorpusReader(corpus_root, '.*')
 
 the_corpus = begin(wordlist, [])
 porter = nltk.PorterStemmer()
-#m = main
-#text = Index.IndexedText(m.porter, m.the_corpus)
+text = Index.IndexedText(porter, the_corpus)
 #text.concordance('Know')
 #text.newconc('Forever')
 
 ## As of now got all of Jay's lyric words in the system. 
 ## I can access the concordance to see how they are used.
+
