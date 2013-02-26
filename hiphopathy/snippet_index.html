@@ -1,36 +1,46 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Snippets</title>
-	
-</head>
-    
-<body>
+{% extends "base.html" %}
 
-    
-    {% if chunk_list %}
+{% block title %}
+  {% for s in song %}
+    Hiphopathy: Snippets from '{{ s.title }}'
+  {% empty %}
+    Hiphopathy: Snippets
+  {% endfor %}
+{% endblock %}
 
-    
+{% block jumbotron %}
+  <h1>Snippets</h1>
+  <h2>
+    {% if song %}
+      {% for s in song %}
+        {{ s.title }}
+      {% endfor %}
+    {% endif %}
+  </h2>
+{% endblock %}
+
+{% block marketing %}
+  {% if chunk_list %}
     {% for chunk in chunk_list %}
-    {% if chunk.snippetid < 20 %}
-    <form action="." method="POST" >
-    
-		 {{ chunk }} <br />
-		<input type="text" name="user_supplied_answer"  value="{{chunk.user_answer}}" width=100 />
-		<p> <!---value="{{snippet.answer}}"-->
-	{% endif %}
+      {% if chunk.snippetid < 20 %}
+        <form action="." method="POST" >
+        
+    		 {{ chunk }} <br />
+    		<input type="text" name="user_supplied_answer"  value="{{chunk.user_answer}}" width=100 />
+    		<p> <!---value="{{snippet.answer}}"-->
+      {% endif %}
     {% endfor %}
    
-     <input type="button" name="Submit" value="Submit" />
-     </form>
+    <input type="button" name="Submit" value="Submit" />
+    </form>
     
-    {% else %}
-        <p>No chunks in the database for this song.</p>
-    {% endif %}
+  {% else %}
+    <p>No chunks in the database for this song.</p>
+  {% endif %}
 
-
-</body>
-</html>
-
-
+  {% if artist %}
+    <div class="btn-group">
+        <button class="btn"><a href="/hiphopathy/{{ artist.artistid }}/song_view/"><i class="icon-arrow-left"></i> Back to {{ artist.artist }}</a></button>
+    </div>
+  {% endif %}
+{% endblock %}

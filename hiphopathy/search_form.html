@@ -1,11 +1,22 @@
-<html>
-<head>
-    <title>Search</title>
-</head>
-<body>
+{% extends "base.html" %}
+
+{% block title %}Search{% endblock %}
+
+{% block navbar %}
+  <li><a href="/hiphopathy/">Home</a></li>
+  <li><a href="/hiphopathy/about/">About</a></li>
+  <li class="active"><a href="/hiphopathy/search_form/">Search</a></li>
+{% endblock %}
+
+{% block jumbotron %}
     <form action="/hiphopathy/search/" method="get">
         <input type="text" name="q">
         <input type="submit" value="Search">
     </form>
-</body>
-</html>
+{% endblock %}
+
+{% block marketing %}
+	<p>
+		<strong>Note:</strong> The search function only works on Song ID numbers at the moment.
+	</p>
+{% endblock %}

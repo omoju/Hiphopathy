@@ -1,0 +1,35 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Hiphopathy 	Empathy building through Linguistic Data Analysis</title>
+    <link rel="stylesheet" type="text/css" media="screen,print" href="static/Welcome_2_files/Welcome_2-2.css" />
+  </head>
+  <body style="background: rgb(255, 255, 255); margin: 0pt;">
+  
+   
+<div>
+<p style="padding-top: 10pt; padding-left: 20pt">Hiphopathy: Empathy building through Linguistic Data Analysis</p>
+</div>
+            
+        
+
+<div>
+<p style="padding-top: 20pt; padding-left: 20pt">
+A tool that gives you the opportunity to test how much you are able to understand the cultural milieu of another person, 
+by paying careful attention to language, the cultural frames they evoke, with the goal of maintaining thematic coherence.<br /></p>
+<p><br /></p>
+</div>
+<div> 
+    <ul>
+	{% for artist in artist_list %}
+		<li><a href="/hiphopathy/{{ artist.artistid }}/song_view/">{{ artist.artist }}</a></li>
+	{% empty %}
+		<p>No artist in the database.</p>
+	{% endfor %}
+	</ul>
+</div>
+           
+  
+  </body>
+</html>
+
+

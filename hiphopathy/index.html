@@ -1,35 +1,55 @@
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Hiphopathy 	Empathy building through Linguistic Data Analysis</title>
-    <link rel="stylesheet" type="text/css" media="screen,print" href="static/Welcome_2_files/Welcome_2-2.css" />
-  </head>
-  <body style="background: rgb(255, 255, 255); margin: 0pt;">
-  
-   
-<div>
-<p style="padding-top: 10pt; padding-left: 20pt">Hiphopathy: Empathy building through Linguistic Data Analysis</p>
-</div>
-            
-        
+{% extends "base.html" %}
 
-<div>
-<p style="padding-top: 20pt; padding-left: 20pt">
-A tool that gives you the opportunity to test how much you are able to understand the cultural milieu of another person, 
-by paying careful attention to language, the cultural frames they evoke, with the goal of maintaining thematic coherence.<br /></p>
-<p><br /></p>
-</div>
-<div> 
-    <ul>
-	{% for artist in artist_list %}
-		<li><a href="/hiphopathy/{{ artist.artistid }}/song_view/">{{ artist.artist }}</a></li>
-	{% empty %}
-		<p>No artist in the database.</p>
-	{% endfor %}
-	</ul>
-</div>
-           
-  
-  </body>
-</html>
+{% block title %}Hiphopathy: Empathy Building through Linguistic Data Analysis{% endblock %}
+
+{% block navbar %}
+  <li class="active"><a href="/hiphopathy/">Home</a></li>
+  <li><a href="/hiphopathy/about/">About</a></li>
+  <li><a href="/hiphopathy/search_form/">Search</a></li>
+{% endblock %}
+
+{% block header %}Welcome!{% endblock %}
+
+{% block jumbotron %}
+  <h1>Hiphopathy</h1>
+  <h3>Empathy Building through Linguistic Data Analysis</h3>
+  <p class="lead">A tool that gives you the opportunity to test how much you are able to understand the cultural milieu of another person by paying careful attention to language and the cultural frames they evoke, with the goal of maintaining thematic coherence. Click on an artist below to get started.</p>
+  <!-- <a class="btn btn-large btn-success" href="#">Jay-Z's lyrics!</a> -->
+  <div class="row-fluid">
+      <div class="btn-group">
+        <!--can have about 8 button for artists before it should switch to a new line or new form of showcasing-->
+        {% for artist in artist_list %}
+          <button class="btn"><a href="/hiphopathy/{{ artist.artistid }}/song_view/">{{ artist.artist }}</a></button>
+        {% empty %}
+          <p>No artist in the database.</p>
+        {% endfor %}
+      </div>
+  </div>
+{% endblock %}
+
+{% block divider2 %}{% endblock %}
 
 
+{% block marketing %}
+  <!--<div class="span6">
+    <h4>Subheading</h4>
+    <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+
+    <h4>Subheading</h4>
+    <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+
+    <h4>Subheading</h4>
+    <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+  </div>
+
+  <div class="span6">
+    <h4>Subheading</h4>
+    <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+
+    <h4>Subheading</h4>
+    <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+
+    <h4>Subheading</h4>
+    <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+  </div>-->
+{% endblock %}
