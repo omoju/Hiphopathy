@@ -1,56 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b11589b-273c-49f0-8dd3-a334eec55170" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hiphopathy/snippet_index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite_hiphopathy/hiphopathy/snippet_import_script.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/polls/snippet_index.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mysite_hiphopathy/polls/Index.py" afterPath="$PROJECT_DIR$/mysite_hiphopathy/hiphopathy/Index.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mysite_hiphopathy/polls/LoadCorpus.py" afterPath="$PROJECT_DIR$/mysite_hiphopathy/hiphopathy/LoadCorpus.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mysite_hiphopathy/polls/LyricScraper.py" afterPath="$PROJECT_DIR$/mysite_hiphopathy/hiphopathy/LyricScraper.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mysite_hiphopathy/polls/__init__.py" afterPath="$PROJECT_DIR$/mysite_hiphopathy/hiphopathy/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mysite_hiphopathy/polls/admin.py" afterPath="$PROJECT_DIR$/mysite_hiphopathy/hiphopathy/admin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mysite_hiphopathy/polls/generator.py" afterPath="$PROJECT_DIR$/mysite_hiphopathy/hiphopathy/generator.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mysite_hiphopathy/polls/main.py" afterPath="$PROJECT_DIR$/mysite_hiphopathy/hiphopathy/main.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mysite_hiphopathy/polls/models.py" afterPath="$PROJECT_DIR$/mysite_hiphopathy/hiphopathy/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mysite_hiphopathy/polls/tests.py" afterPath="$PROJECT_DIR$/mysite_hiphopathy/hiphopathy/tests.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mysite_hiphopathy/polls/views.py" afterPath="$PROJECT_DIR$/mysite_hiphopathy/hiphopathy/views.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/polls/Test_index.html" afterPath="$PROJECT_DIR$/hiphopathy/Test_index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/polls/hiphopathy_style.css" afterPath="$PROJECT_DIR$/hiphopathy/hiphopathy_style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/polls/index.html" afterPath="$PROJECT_DIR$/hiphopathy/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/polls/screen.css" afterPath="$PROJECT_DIR$/hiphopathy/screen.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/polls/search_form.html" afterPath="$PROJECT_DIR$/hiphopathy/search_form.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/polls/search_results.html" afterPath="$PROJECT_DIR$/hiphopathy/search_results.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/polls/snippet_post.html" afterPath="$PROJECT_DIR$/hiphopathy/snippet_post.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/polls/song_index.html" afterPath="$PROJECT_DIR$/hiphopathy/song_index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/polls/static/Media/IE8.css" afterPath="$PROJECT_DIR$/hiphopathy/static/Media/IE8.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/polls/static/Media/transparent.gif" afterPath="$PROJECT_DIR$/hiphopathy/static/Media/transparent.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/polls/static/Scripts/Widgets/BlogSummary/BlogSummary.css" afterPath="$PROJECT_DIR$/hiphopathy/static/Scripts/Widgets/BlogSummary/BlogSummary.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/polls/static/Scripts/Widgets/BlogSummary/BlogSummary.js" afterPath="$PROJECT_DIR$/hiphopathy/static/Scripts/Widgets/BlogSummary/BlogSummary.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/polls/static/Scripts/Widgets/BlogSummary/Overlay-Audio.png" afterPath="$PROJECT_DIR$/hiphopathy/static/Scripts/Widgets/BlogSummary/Overlay-Audio.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/polls/static/Scripts/Widgets/BlogSummary/Overlay-Movie.png" afterPath="$PROJECT_DIR$/hiphopathy/static/Scripts/Widgets/BlogSummary/Overlay-Movie.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/polls/static/Scripts/Widgets/BlogSummary/localizedStrings.js" afterPath="$PROJECT_DIR$/hiphopathy/static/Scripts/Widgets/BlogSummary/localizedStrings.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/polls/static/Scripts/Widgets/Navbar/navbar.js" afterPath="$PROJECT_DIR$/hiphopathy/static/Scripts/Widgets/Navbar/navbar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/polls/static/Scripts/Widgets/SharedResources/None.gif" afterPath="$PROJECT_DIR$/hiphopathy/static/Scripts/Widgets/SharedResources/None.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/polls/static/Scripts/Widgets/SharedResources/Translucent-Overlay.png" afterPath="$PROJECT_DIR$/hiphopathy/static/Scripts/Widgets/SharedResources/Translucent-Overlay.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/polls/static/Scripts/Widgets/SharedResources/WidgetCommon.js" afterPath="$PROJECT_DIR$/hiphopathy/static/Scripts/Widgets/SharedResources/WidgetCommon.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/polls/static/Scripts/iWebBlog.js" afterPath="$PROJECT_DIR$/hiphopathy/static/Scripts/iWebBlog.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/polls/static/Scripts/iWebDebug.js" afterPath="$PROJECT_DIR$/hiphopathy/static/Scripts/iWebDebug.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/polls/static/Scripts/iWebImage.js" afterPath="$PROJECT_DIR$/hiphopathy/static/Scripts/iWebImage.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/polls/static/Scripts/iWebSite.js" afterPath="$PROJECT_DIR$/hiphopathy/static/Scripts/iWebSite.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/polls/static/Welcome_2_files/Welcome_2-2.css" afterPath="$PROJECT_DIR$/hiphopathy/static/Welcome_2_files/Welcome_2-2.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/polls/static/Welcome_2_files/Welcome_2.css" afterPath="$PROJECT_DIR$/hiphopathy/static/Welcome_2_files/Welcome_2.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/polls/static/Welcome_2_files/Welcome_2.js" afterPath="$PROJECT_DIR$/hiphopathy/static/Welcome_2_files/Welcome_2.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/polls/static/Welcome_2_files/Welcome_2IE.css" afterPath="$PROJECT_DIR$/hiphopathy/static/Welcome_2_files/Welcome_2IE.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/polls/static/Welcome_2_files/Welcome_2Moz.css" afterPath="$PROJECT_DIR$/hiphopathy/static/Welcome_2_files/Welcome_2Moz.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/polls/static/Welcome_2_files/mwmac_white.png" afterPath="$PROJECT_DIR$/hiphopathy/static/Welcome_2_files/mwmac_white.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/polls/static/Welcome_2_files/shapeimage_1.jpg" afterPath="$PROJECT_DIR$/hiphopathy/static/Welcome_2_files/shapeimage_1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/polls/static/Welcome_2_files/shapeimage_2.png" afterPath="$PROJECT_DIR$/hiphopathy/static/Welcome_2_files/shapeimage_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_hiphopathy/mysite/settings.py" afterPath="$PROJECT_DIR$/mysite_hiphopathy/mysite/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_hiphopathy/mysite/urls.py" afterPath="$PROJECT_DIR$/mysite_hiphopathy/mysite/urls.py" />
-    </list>
+    <list default="true" id="9b11589b-273c-49f0-8dd3-a334eec55170" name="Default" comment="" />
     <ignored path="hiphopathy.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -68,17 +19,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="snippet_import_script.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mysite_hiphopathy/hiphopathy/snippet_import_script.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.061643835">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -347,7 +288,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="87" y="22" width="1208" height="878" extended-state="1" />
+    <frame x="87" y="22" width="1208" height="878" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -447,31 +388,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite_hiphopathy/hiphopathy/generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.1129707" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite_hiphopathy/hiphopathy/Index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.21232876" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite_hiphopathy/hiphopathy/LoadCorpus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="4" selection-start="2" selection-end="4" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite_hiphopathy/hiphopathy/LyricScraper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="4" selection-start="2" selection-end="4" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite_hiphopathy/hiphopathy/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="4" selection-start="2" selection-end="4" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite_hiphopathy/hiphopathy/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -495,13 +411,6 @@
     <entry file="file://$PROJECT_DIR$/mysite_hiphopathy/mysite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="11" selection-start="156" selection-end="790" vertical-scroll-proportion="0.4989605" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite_hiphopathy/hiphopathy/snippet_import_script.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.061643835">
-          <folding />
-        </state>
       </provider>
     </entry>
   </component>
