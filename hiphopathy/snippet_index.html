@@ -20,6 +20,11 @@
 {% endblock %}
 
 {% block marketing %}
+  <p>
+    Make sure to use <strong>commas</strong> to separate the words or phrases you choose in order to decode the song lyric.
+  </p>
+  <br />
+  <h3>Selected Lyrics</h3>
   {% if chunk_list %}
     {% for chunk in chunk_list %}
       {% if chunk.snippetid < 20 %}

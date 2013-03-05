@@ -6,9 +6,56 @@
     <!-- Bootstrap -->
     <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
         <style type="text/css">
-      body {
+      /*body {
         padding-top: 20px;
         padding-bottom: 40px;
+      }*/
+
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+
+      /*colored bar for top of page*/
+      #headerBar {
+        height: 200px;
+        /*background: #274F7D;*/
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: -1;
+
+        /* fallback */
+        background-color: #049cdb;
+        /*background: url(images/linear_bg_2.png);
+        background-repeat: repeat-x;*/
+        
+        /* Safari 4-5, Chrome 1-9 */
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#049cdb));
+        
+        /* Safari 5.1, Chrome 10+ */
+        background: -webkit-linear-gradient(top, #049cdb, #FFFFFF);
+        
+        /* Firefox 3.6+ */
+        background: -moz-linear-gradient(top, #049cdb, #FFFFFF);
+        
+        /* IE 10 */
+        background: -ms-linear-gradient(top, #049cdb, #FFFFFF);
+        
+        /* Opera 11.10+ */
+        background: -o-linear-gradient(top, #049cdb, #FFFFFF);
+      }
+
+      .muted {
+        color: #FFF;
+      }
+
+      .nav a {
+        color: #FFF;
+      }
+
+      .nav a:hover {
+        color: #08c;
       }
 
       /* Custom container */
@@ -50,6 +97,8 @@
   </head>
   <body>
 
+    <div id="headerBar"></div>
+
     <div class="container-narrow">
 
       <div class="masthead">
@@ -63,7 +112,7 @@
         <h3 class="muted">{% block header %}Hiphopathy{% endblock %}</h3>
       </div>
 
-      {% block divider1 %}<hr>{% endblock %}
+      {% block divider1 %}<!-- <hr> -->{% endblock %}
 
       <div class="jumbotron">
         {% block jumbotron %}{% endblock %}
