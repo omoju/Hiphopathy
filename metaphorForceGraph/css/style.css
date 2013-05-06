@@ -1,0 +1,141 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html, button, input, select, textarea { font-family: sans-serif; color: #222; }
+body { margin: 0; font-size: 1em; line-height: 1.4; }
+
+a { color: #3082BC; }
+a:visited { color: #3082BC; }
+a:hover { color: #3082BC; }
+a:focus { outline: thin dotted; }
+a:hover, a:active { outline: 0; }
+
+abbr[title] { border-bottom: 1px dotted; }
+b, strong { font-weight: bold; }
+blockquote { margin: 1em 40px; }
+dfn { font-style: italic; }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+ins { background: #ff9; color: #000; text-decoration: none; }
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+pre, code, kbd, samp { font-family: monospace, serif; _font-family: 'courier new', monospace; font-size: 1em; }
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+q { quotes: none; }
+q:before, q:after { content: ""; content: none; }
+small { font-size: 85%; }
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+dd { margin: 0 0 0 40px; }
+nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+svg:not(:root) { overflow: hidden; }
+figure { margin: 0; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+
+.chromeframe { margin: 0.2em 0; background: #ccc; color: black; padding: 0.2em 0; }
+
+/* ==|== primary styles ======================================================= */
+
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: sans-serif;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -ms-user-select: none;
+}
+#page {
+    width: 900px;
+    margin: 0 auto;
+}
+#chart {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+circle.node {
+    cursor: pointer;
+    stroke: #3182bd;
+    stroke-width: 1.5px;
+}
+line.link {
+    fill: none;
+    stroke: #C1D6E1;
+    stroke-width: 1px;
+}
+#chart text.label {
+    font: 10px sans-serif;
+    color: #ffffff;
+}
+
+
+footer[role="contentinfo"] {
+    margin-top: 20px;
+	padding: 15px 0 0 0;
+	font-size: 14px;
+	border-top: 1px solid #ddd;
+}
+footer[role="contentinfo"] nav ul {
+    margin: 0;
+    padding: 0;
+}
+footer[role="contentinfo"] nav ul li {
+	display: inline;
+	margin: 0 10px 0 0;
+	padding: 0 10px 0 0;
+	font-weight: bold;
+	border-right: 1px solid #ccc;
+}
+footer[role="contentinfo"] nav ul li:last-child {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+footer[role="contentinfo"] p {
+	margin: 10px 0;
+}			
+
+.buttons button {
+    font-size: 14px;
+    background-color: #222;
+    background-image: -moz-linear-gradient(top, rgba(255,255,255,.25), rgba(255,255,255,.11));
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, rgba(255,255,255,.25)),color-stop(1, rgba(255,255,255,.11)));
+    background-image: -webkit-linear-gradient(rgba(255,255,255,.25), rgba(255,255,255,.11));
+    color: #fff;
+    text-rendering: optimizeLegibility;
+    text-shadow: 0 -1px 1px #222;
+    padding: 6px 10px 6px 10px;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #222;
+    margin: 0;
+    -moz-box-shadow: 0 1px 3px #999;
+    -webkit-box-shadow: 0 1px 3px #999;
+}
+
+.buttons button.first {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.buttons button.last {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.buttons button.active {
+    background-color: rgb(65,102,133);
+}
+
+.buttons button:hover {
+    background-color: steelblue;
+}
+

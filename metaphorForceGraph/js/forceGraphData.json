@@ -1,0 +1,21 @@
+{"maxMetaphorCount" : 4,
+"maxSnippetCount" : 2,
+"nodes" :
+[{"count": 0, "name": "survive", "type": "s", "id": 0},
+{"count": 2, "name": "drought", "type": "s", "id": 1},
+{"count": 1, "name": "wish", "type": "s", "id": 2},
+{"count": 2, "name": "well", "type": "s", "id": 3},
+{"count": 2, "name": "water", "type": "m", "id": 4},
+{"count": 2, "name": "money", "type": "m", "id": 5},
+{"count": 4, "name": "poverty", "type": "m", "id": 6},
+{"count": 2, "name": "hope", "type": "m", "id": 7}],
+"links" :
+[{"source" : 0, "target" : 6},
+{"source" : 1, "target" : 4},
+{"source" : 1, "target" : 6},
+{"source" : 2, "target" : 7},
+{"source" : 3, "target" : 4},
+{"source" : 3, "target" : 5},
+{"source" : 5, "target" : 6}, 
+{"source" : 6, "target" : 7}]
+}
