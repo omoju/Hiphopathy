@@ -17,6 +17,9 @@ I want to change this false dichotomy by bringing the power of computational met
 
 [Chapter 3: Lets play with some APIs](http://nbviewer.ipython.org/github/omoju/hiphopathy/blob/master/Chapter3_RapGeniusApi.ipynb)
 
+## Publication
+- [Its Deeper than Rap: Toward Culturally Responsive CS](http://dl.acm.org/citation.cfm?id=2604994)
+
 ## How to Contribute
 
 Find any typos? Have another resource you think should be included? Contributions are welcome!
