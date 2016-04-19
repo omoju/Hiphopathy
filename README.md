@@ -39,4 +39,4 @@ Once you've pushed changes to your local repository, you can issue a pull reques
 
 ## License
 
-The contents of this repository are covered under the [GNU GENERAL PUBLIC LICENSE](../blob/master/LICENSE.md).
+The contents of this repository are covered under the [GNU GENERAL PUBLIC LICENSE](/LICENSE.md).
