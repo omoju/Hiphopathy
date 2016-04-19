@@ -19,7 +19,7 @@ I want to change this false dichotomy by bringing the power of computational met
 
 ## How to Contribute
 
-Find any tyypos? Have another resource you think should be included? Contributions are welcome!
+Find any typos? Have another resource you think should be included? Contributions are welcome!
 
 First, fork this repository.
 
@@ -39,4 +39,4 @@ Once you've pushed changes to your local repository, you can issue a pull reques
 
 ## License
 
-The contents of this repository are covered under the [MIT License](LICENSE).
+The contents of this repository are covered under the [GNU GENERAL PUBLIC LICENSE](LICENSE).
