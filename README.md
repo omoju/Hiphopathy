@@ -1,6 +1,6 @@
 ## Hiphopathy 
 
-HipHopathy, A Socio-Curricular Study of Introductory Computer Science centered around data science using rap lyrics.
+HipHopathy, A Socio-Curricular Study of Introductory CS Anchored with Data Science Using Rap Lyrics.
 
 Welcome to an innovative way of teaching and sharing the delights that comes when data, computational methods and culture collide. The goal of this work is to connect cultural relevance to computing by introducing elementary techniques of natural language processing with a corpus of hip-hop data.
 
