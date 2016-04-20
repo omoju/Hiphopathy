@@ -11,11 +11,11 @@ I want to change this false dichotomy by bringing the power of computational met
 ## Resources
 
 [Chapter 1: Snap to Python]
-(http://nbviewer.ipython.org/github/omoju/hiphopathy/blob/master/Chapter1_SnaptoPython.ipynb)
+(http://nbviewer.ipython.org/github/omoju/hiphopathy/blob/master/SnaptoPython/SnaptoPython.ipynb)
 
-[Chapter 2: Lyrics Exploration](http://nbviewer.ipython.org/github/omoju/hiphopathy/blob/master/Chapter2_HipHopDataExploration.ipynb)
+[Chapter 2: Lyrics Exploration](http://nbviewer.ipython.org/github/omoju/hiphopathy/blob/master/HipHopDataExploration/HipHopDataExploration.ipynb)
 
-[Chapter 3: Lets play with some APIs](http://nbviewer.ipython.org/github/omoju/hiphopathy/blob/master/Chapter3_RapGeniusApi.ipynb)
+[Chapter 3: Lets play with some APIs](http://nbviewer.ipython.org/github/omoju/hiphopathy/blob/master/RapGeniusAPI/RapGeniusAPI.ipynb)
 
 ## Publication
 - [Its Deeper than Rap: Toward Culturally Responsive CS](http://dl.acm.org/citation.cfm?id=2604994)
