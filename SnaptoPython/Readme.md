@@ -3,7 +3,7 @@
 This project requires Python 2.7 and the following Python libraries installed:
 
 - [Turtle](https://docs.python.org/2/library/turtle.html#)
-- 
+
 In addition, you will need to be able to run an iPython Notebook to complete this project.
 
 ## Code
