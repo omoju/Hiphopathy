@@ -1,2 +1,9 @@
+# notebook check points objs #
+##############################
+
+*.ipynb_checkpoints*
+
 .DS_Store
 .idea
+
+
