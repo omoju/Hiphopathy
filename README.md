@@ -18,7 +18,18 @@ I want to change this false dichotomy by bringing the power of computational met
 [Chapter 3: Lets play with some APIs](http://nbviewer.ipython.org/github/omoju/hiphopathy/blob/master/RapGeniusAPI/RapGeniusAPI.ipynb)
 
 ## Publication
+-----------------------------------------------------------------------------------
+| Title    | HipHopathy, A Socio-Curricular Study of Introductory Computer Science |
+| -------- | --------------------------------------------------------------------- |
+| Author   | Omoju Miller 							                               |
+| Advisor  | [Dr. Alice Agogino][Alice] 					                       |
+| Degree   | Doctor of Philosophy, Computer Science Education 	                   |
+| Date     | Dec 2015								                               |
+------------------------------------------------------------------------------------
+[Alice]: http://www.me.berkeley.edu/people/faculty/alice-m-agogino
+
 - [Its Deeper than Rap: Toward Culturally Responsive CS](http://dl.acm.org/citation.cfm?id=2604994)
+
 
 ## How to Contribute
 
