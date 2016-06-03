@@ -1,3 +1,6 @@
+# Hiphopathy
+This curricula unit has been specifically designed to fit the data exploration task for the upcoming AP CS Principles course. 
+
 ## Install
 
 This project requires Python 2.7 and the following Python libraries installed:
