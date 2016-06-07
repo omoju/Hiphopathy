@@ -8,6 +8,9 @@ Art is something that we often believe is separate from the so-called hard scien
 
 I want to change this false dichotomy by bringing the power of computational methods to investigate and explore the riches that are inherent in the arts. It is for this reason that I have chosen to use a corpus of hip-hop lyrics as the dataset on which we will practice our computational techniques. At the end of this series of exercises you will be able to build a visualization of the occurrence of certain words in a rap corpus.
 
+The unit was implemented on **edX** MOOClet, *[BJC.3x:Data, Information and the Internet](https://www.edx.org/course/beauty-joy-computing-cs-principles-part-uc-berkeleyx-bjc-3x).* The coursed launched in 2015 with over 20,000 students.
+
+
 ## Resources
 
 [Chapter 1: Snap to Python]
@@ -31,7 +34,6 @@ I want to change this false dichotomy by bringing the power of computational met
 - [Its Deeper than Rap: Toward Culturally Responsive CS](http://dl.acm.org/citation.cfm?id=2604994). *XRDS: Crossroads, The ACM Magazine for Students, 20(4), 28-30.*
 - [Snap!(build your own blocks)](http://dl.acm.org/citation.cfm?id=2539022). *In Proceedings of the 45th ACM technical symposium on Computer science education (pp. 749-749). ACM.*
 - [ AP CS principles and the beauty and joy of computing curriculum.](http://dl.acm.org/citation.cfm?id=2539026) *In Proceedings of the 45th ACM technical symposium on Computer science education, pp. 746-746. ACM, 2014.*
-- Project was implemented on **edX** MOOClet, *[BJC.3x:Data, Information and the Internet](https://www.edx.org/course/beauty-joy-computing-cs-principles-part-uc-berkeleyx-bjc-3x).* The coursed launched with over 20,000 students.
 
 
 ## How to Contribute
