@@ -8,7 +8,7 @@ Art is something that we often believe is separate from the so-called hard scien
 
 I want to change this false dichotomy by bringing the power of computational methods to investigate and explore the riches that are inherent in the arts. It is for this reason that I have chosen to use a corpus of hip-hop lyrics as the dataset on which we will practice our computational techniques. At the end of this series of exercises you will be able to build a visualization of the occurrence of certain words in a rap corpus.
 
-The unit was implemented on **edX** MOOClet, *[BJC.3x:Data, Information and the Internet](https://www.edx.org/course/beauty-joy-computing-cs-principles-part-uc-berkeleyx-bjc-3x).* The coursed launched in 2015 with over 20,000 students.
+The unit was implemented on **edX** MOOClet, *[BJC.3x: Data, Information and the Internet](https://www.edx.org/course/beauty-joy-computing-cs-principles-part-uc-berkeleyx-bjc-3x).* The coursed launched in 2015 with over 20,000 students.
 
 
 ## Resources
