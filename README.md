@@ -32,8 +32,8 @@ The unit was implemented on **edX** MOOClet, *[BJC.3x: Data, Information and the
 [Alice]: http://www.me.berkeley.edu/people/faculty/alice-m-agogino
 
 - [Its Deeper than Rap: Toward Culturally Responsive CS](http://dl.acm.org/citation.cfm?id=2604994). *XRDS: Crossroads, The ACM Magazine for Students, 20(4), 28-30.*
-- [Snap!(build your own blocks)](http://dl.acm.org/citation.cfm?id=2539022). *In Proceedings of the 45th ACM technical symposium on Computer science education (pp. 749-749). ACM.*
-- [ AP CS principles and the beauty and joy of computing curriculum.](http://dl.acm.org/citation.cfm?id=2539026) *In Proceedings of the 45th ACM technical symposium on Computer science education, pp. 746-746. ACM, 2014.*
+- [Snap!(Build Your Own Blocks)](http://dl.acm.org/citation.cfm?id=2539022). *In Proceedings of the 45th ACM technical symposium on Computer science education (pp. 749-749). ACM.*
+- [ AP CS Principles and the Beauty and Joy of Computing Curriculum.](http://dl.acm.org/citation.cfm?id=2539026) *In Proceedings of the 45th ACM technical symposium on Computer science education, pp. 746-746. ACM, 2014.*
 
 
 ## How to Contribute
