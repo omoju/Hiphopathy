@@ -13,8 +13,7 @@ The unit was implemented on **edX** MOOClet, *[BJC.3x: Data, Information and the
 
 ## Resources
 
-[Chapter 1: Snap to Python]
-(http://nbviewer.ipython.org/github/omoju/hiphopathy/blob/master/SnaptoPython/SnaptoPython.ipynb)
+[Chapter 1: Snap to Python](http://nbviewer.ipython.org/github/omoju/hiphopathy/blob/master/SnaptoPython/SnaptoPython.ipynb)
 
 [Chapter 2: Lyrics Exploration](http://nbviewer.ipython.org/github/omoju/hiphopathy/blob/master/HipHopDataExploration/HipHopDataExploration.ipynb)
 
